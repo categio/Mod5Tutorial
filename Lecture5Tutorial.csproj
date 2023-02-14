@@ -70,21 +70,30 @@
     <Content Include="App_Data\images\bkground.jpg" />
     <Content Include="App_Data\images\red-geo-bkgrnd.png" />
     <Content Include="App_Data\images\red-sburst-bkgrnd.png" />
+    <Content Include="App_Data\images\secure.png" />
     <Content Include="App_Data\images\triangles.png" />
-    <Content Include="firstpage.aspx" />
+    <Content Include="NewUserForm.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="LoginForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="firstpage.aspx.cs">
-      <DependentUpon>firstpage.aspx</DependentUpon>
+    <Compile Include="NewUserForm.aspx.cs">
+      <DependentUpon>NewUserForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="firstpage.aspx.designer.cs">
-      <DependentUpon>firstpage.aspx</DependentUpon>
+    <Compile Include="NewUserForm.aspx.designer.cs">
+      <DependentUpon>NewUserForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.aspx.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginForm.aspx.designer.cs">
+      <DependentUpon>LoginForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
